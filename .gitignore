@@ -1,8 +1,28 @@
+# Virtual environments
 myenv/
+venv/
+.env
 
-.pytest_cache/
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
-.DS_Store
+
+# Testing
+.pytest_cache/
+
+# IDEs
 .idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Logs & DB
+*.log
+*.sqlite3
+
+# ML artifacts
+mlruns/
+models/
+data/
